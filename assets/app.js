@@ -66,13 +66,13 @@ const caseStudies = {
     takeaway: 'Good data interfaces make complexity manageable. The goal was to support fast, trustworthy decisions without overwhelming the user.',
     tech: ['React', 'TypeScript', 'Redux', 'Material UI', 'REST APIs', 'Jest'],
   },
-  reporting: {
-    id: '02 / ENTERPRISE WORKFLOWS', category: 'ANGULAR · RXJS · REST APIS', title: 'Reporting & data workspace',
-    summary: 'Building dependable reporting workflows that work across different user roles.',
-    challenge: 'Users needed exportable tables, predictable navigation and data views that remained accurate as filters or permissions changed.',
-    contribution: 'Developed Angular interfaces with reusable components, reactive state handling using RxJS, typed REST API models, exportable data grids and role-aware views. Collaborated with QA and backend engineers on defects and reliable releases.',
-    takeaway: 'The best enterprise UI often looks simple because the complex states and edge cases have been handled carefully.',
-    tech: ['Angular', 'TypeScript', 'RxJS', 'SCSS', 'REST APIs', 'CI/CD'],
+  movie: {
+    id: '02 / PERSONAL REACT PROJECT', category: 'REACT · REDUX · TAILWIND CSS', title: 'Movie discovery & search UI',
+    summary: 'A personal React practice project exploring film discovery, responsive browsing and an experimental AI-powered search interface.',
+    challenge: 'The goal was to practise building a component-based browsing experience, with route navigation, shared state and data from external movie APIs.',
+    contribution: 'Built a React interface with browse and login routes, Redux Toolkit state management, Tailwind CSS layouts and components for movie lists and cards. Explored an OpenAI-based search request as an experiment; the search and recommendations flow is still a prototype.',
+    takeaway: 'This side project helped me experiment with React architecture, shared state, external APIs and responsive design outside client work.',
+    tech: ['React', 'Redux Toolkit', 'Tailwind CSS', 'React Router', 'REST APIs'],
   },
   tutor: {
     id: '03 / LEARNING EXPERIENCE', category: 'ANGULAR · RESPONSIVE DESIGN', title: 'AI Tutor learning app',
