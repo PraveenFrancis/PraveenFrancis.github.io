@@ -43,3 +43,22 @@ img,svg{max-width:100%}
 @media(max-width:600px){.container{padding:0 19px}.header-inner{height:69px}.main-nav{top:69px}.brand-caption{display:none}.header-actions{gap:3px}.header-contact{font-size:12px}.hero-grid{padding-top:44px}.hero-intro{margin-top:32px;font-size:18px}.hero h1{font-size:clamp(39px,10.5vw,55px)}.hero-lead{font-size:14px;line-height:1.8}.hero-facts{margin-top:39px;gap:14px}.hero-facts strong{font-size:13px}.hero-facts span:not(.fact-separator){font-size:10px}.fact-separator{height:24px}.eyebrow{font-size:9px;flex-wrap:wrap}.dashboard-card{transform:rotate(-1deg);padding:15px}.dashboard-title-row h2{font-size:17px}.dashboard-metrics strong{font-size:20px}.dashboard-metrics>div{padding:9px}.dashboard-metrics small{font-size:9px}.hero-bottom-bar{font-size:10px;gap:10px}.section-heading h2,.experience-aside h2,.about-copy h2{font-size:37px}.section{padding:72px 0}.project-grid,.expertise-grid{grid-template-columns:1fr}.project-visual{height:255px}.project-body p{min-height:0}.work-caveat{align-items:flex-start}.expertise-card{min-height:0}.timeline-top{flex-direction:column;gap:1px}.timeline-top time{font-size:10px}.about-decoration{height:270px}.quote-monogram{font-size:125px}.contact-inner h2{font-size:45px}.contact-illustration{height:230px}.contact-illustration>div{font-size:51px}.footer-inner,.footer-inner>div{gap:12px;flex-direction:column;align-items:flex-start}.resume-page{margin:0;padding:30px 19px;box-shadow:none}.resume-topbar{margin:0;padding:13px 17px}.resume-head h1{font-size:31px}.resume-job-heading{flex-direction:column;align-items:start;gap:1px}.resume-group strong{width:105px}.resume-group span{flex:1}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.site-header,.site-footer,.resume-topbar,.skip-link{display:none!important}.resume-body{background:#fff}.resume-page{max-width:none;margin:0;padding:0;box-shadow:none}.resume-head h1{font-size:30px}.resume-section{margin-top:17px}.resume-job{margin-bottom:10px}.resume-job li{line-height:1.45}.resume-links a{text-decoration:none}@page{size:A4;margin:15mm}}
+/* Original, image-free visual for the personal movie discovery project. */
+.visual-movies{background:radial-gradient(circle at 82% 6%,#c9d2ee 0 16%,transparent 16.5%),linear-gradient(145deg,#e9e8f0,#d9e4e4)}
+.movie-shell{width:81%;height:81%;border-radius:11px;background:#101621;color:#fff;overflow:hidden;box-shadow:0 25px 48px rgba(21,34,45,.24);transform:rotate(2deg);position:relative}
+.movie-nav{height:32px;display:flex;align-items:center;gap:18px;padding:0 17px;background:#111826;font-size:7px;color:#9da7b2}
+.movie-nav .movie-brand{font-weight:900;letter-spacing:.1em;font-size:10px;color:#f8f8fa;margin-right:auto}
+.movie-nav .movie-brand span{color:#d8698a}
+.movie-nav i{width:11px;height:11px;border:1px solid #8c94a3;border-radius:50%;margin-left:auto}
+.movie-hero{min-height:126px;position:relative;padding:17px 22px;background:radial-gradient(circle at 86% 54%,#a76484 0 2%,transparent 29%),linear-gradient(105deg,#273648 0%,#444564 60%,#7c4c68 100%)}
+.movie-eyebrow{color:#ddd1e0;font-size:6px;font-weight:750;letter-spacing:.14em}
+.movie-hero strong{display:block;font-size:23px;line-height:1.06;letter-spacing:-.06em;margin-top:6px}
+.movie-hero-button{display:inline-flex;gap:14px;align-items:center;background:#df7890;padding:6px 10px;border-radius:3px;font-size:7px;font-weight:800;margin-top:10px}
+.movie-posters{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;padding:13px 17px;position:relative;top:-1px}
+.movie-poster{height:47px;border-radius:4px;box-shadow:0 3px 12px #0005}
+.movie-poster.one{background:linear-gradient(135deg,#3b7089,#142939 65%,#689bb3)}
+.movie-poster.two{background:linear-gradient(160deg,#c98677,#783c5c 50%,#26283f)}
+.movie-poster.three{background:linear-gradient(135deg,#8e7650,#35384d 60%,#a6a4a3)}
+.movie-poster.four{background:linear-gradient(145deg,#526f64,#2b3b50 64%,#978e8f)}
+.project-code-link{display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-size:11px;font-weight:750;color:#536c65;margin-top:12px}
+.project-code-link:hover,.project-code-link:focus-visible{color:#137b70;text-decoration:underline}
